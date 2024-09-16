@@ -15,20 +15,20 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 - Blog / Testimonials
 
 ## Pages
-### Home - An introduction, contact information and bio 
+Home  - An introduction, contact information and bio 
       - Work Experiences
       - Education
       - Licenses & Certifications
       - Testimonial / Recommendations from colleagues, supervisors, or clients 
 
-- Projects: Utilizes bootstrap cards to display projects
+Projects - Utilizes bootstrap cards to display projects
           Each project has links to its source code
 
-- Connect: Display of a complete resume
-         The resume has an onClick() function to download the file as PDF or WORD
-         Links to professional accounts like LinkedIn, GitHub
+Connect - Display of a complete resume
+        - The resume has an onClick() function to download the file as PDF or WORD
+        - Links to professional accounts like LinkedIn, GitHub
 
-- Blog: Professional articles, volunteer work, contributions to open-source projects
+Blog - Professional articles, volunteer work, contributions to open-source projects
 
 ## Technologies Used
 - Angular
@@ -42,5 +42,5 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 Leave blank because we will need to figure out how to host the web page for anyone to view it outside our local machine.
 
 ## Authors
-Johnstanley Ajagu
-Aayush Ogia
+- Johnstanley Ajagu
+- Aayush Ogia
