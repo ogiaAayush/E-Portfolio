@@ -1,25 +1,25 @@
 # E-Portfolio
 
-## Overview - 
+## Overview 
 Angular-based portfolio used to showcase personal projects, skills, a mini blog, and testimonials.
 
-## Features - 
+## Features 
 - Showcase projects (Academic / Personal)
 - View and download Resume/CV
 - Post blog posts and testimonials
 
-## Menu / Navigation - 
+## Menu / Navigation 
 - Home
 - Projects
 - Connect (view Resume and links to professional accounts such as LinkedIn)
 - Blog / Testimonials
 
-## Pages - 
-- Home: An introduction, contact information and bio 
-      Work Experiences
-      Education
-      Licenses & Certifications
-      Testimonial / Recommendations from colleagues, supervisors, or clients 
+## Pages
+### Home - An introduction, contact information and bio 
+      - Work Experiences
+      - Education
+      - Licenses & Certifications
+      - Testimonial / Recommendations from colleagues, supervisors, or clients 
 
 - Projects: Utilizes bootstrap cards to display projects
           Each project has links to its source code
@@ -30,7 +30,7 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 
 - Blog: Professional articles, volunteer work, contributions to open-source projects
 
-## Technologies Used - 
+## Technologies Used
 - Angular
 - Typescript
 - Node.js
@@ -38,9 +38,9 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 - Bootstrap
 - CSS
 
-Development server -
+## Development server
 Leave blank because we will need to figure out how to host the web page for anyone to view it outside our local machine.
 
-Authors -
+## Authors
 Johnstanley Ajagu
 Aayush Ogia
