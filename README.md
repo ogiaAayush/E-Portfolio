@@ -15,23 +15,23 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 - Blog / Testimonials
 
 ## Pages
-- Home:
+- Home
       - An introduction, contact information and bio 
       - Work Experiences
       - Education
       - Licenses & Certifications
       - Testimonial / Recommendations from colleagues, supervisors, or clients 
 
-- Projects:
+- Projects
       - Utilizes bootstrap cards to display projects
       - Each project has links to its source code
 
-- Connect:
+- Connect
       - Display of a complete resume
       - The resume has an onClick() function to download the file as PDF or WORD
       - Links to professional accounts like LinkedIn, GitHub
 
-- Blog:
+- Blog
       - Professional articles, volunteer work, contributions to open-source projects
 
 ## Technologies Used
