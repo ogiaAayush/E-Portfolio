@@ -34,7 +34,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1 {
+  h2 {
     font-size: 3.125rem;
     color: var(--gray-900);
     font-weight: 500;
@@ -51,18 +51,41 @@
     color: var(--gray-700);
   }
 
-  main {
+  main, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .static-background {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: inherit;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  .scrolling-content {
     position: relative;
+    z-index: 1;
+  }
+
+  .scrolling-content section {
+    min-height: 100vh;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("scrolling.jpg");
   }
 
   .angular-logo {
+    border-radius: 100%;
     max-width: 9.2rem;
   }
 
@@ -74,18 +97,12 @@
     margin-bottom: 3rem;
   }
 
-  .content h1 {
+  .content h2 {
     margin-top: 1.75rem;
   }
 
   .content p {
     margin-top: 1.5rem;
-  }
-
-  .divider {
-    width: 1px;
-    background: var(--red-to-pink-to-purple-vertical-gradient);
-    margin-inline: 0.5rem;
   }
 
   .pill-group {
@@ -152,16 +169,9 @@
     fill: var(--gray-900);
   }
 
-  @media screen and (max-width: 650px) {
+  /* @media screen and (max-width: 650px) {
     .content {
       flex-direction: column;
       width: max-content;
     }
-
-    .divider {
-      height: 1px;
-      width: 100%;
-      background: var(--red-to-pink-to-purple-horizontal-gradient);
-      margin-block: 1.5rem;
-    }
-  }
+  } */
