@@ -46,10 +46,10 @@
       "Segoe UI Symbol";
   }
 
-  p {
+  /* p {
     margin: 0;
     color: var(--gray-700);
-  }
+  } */
 
   main, html {
     margin: 0;
@@ -98,6 +98,7 @@
 
   .scrolling-content section:nth-child(1) {
     margin-bottom: 1px;
+    color: azure;
     background-color: rgb(40, 38, 72);
     
   }
@@ -189,7 +190,6 @@
     display: flex;
     align-items: center;
     gap: 0.73rem;
-    margin-top: 1.5rem;
   }
 
   .social-links path {
@@ -199,4 +199,11 @@
 
   .social-links a:hover svg path {
     fill: var(--gray-900);
+  }
+
+  .accordion-button {
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(40, 38, 72);
+    color: azure;
   }
