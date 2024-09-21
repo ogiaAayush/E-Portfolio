@@ -1,18 +1,20 @@
 <main>
-  <div class="static-background">
-   
-  </div>
+  <div class="static-background"></div>
+  <div class="gap-top"><!--gap before the scrolling background-->
+    <div class="content">
+      <div class="left-side">
+        <h2>Hello, I'm Johnstanley Ajagu</h2>
+        <hr style="background-color: azure; height: 3px;">
+        <p>Computer Programmer Analyst | Customer Experience Specialist | Student at Conestoga College</p>
+      </div>
+      <div class="right-side">
+        <img class="angular-logo" src="/assets/img/Dp.jpg" alt="displayImage">
+      </div>
+    </div>
+  </div> 
   <div class="scrolling-content">
     <section>
-      <div class="content">
-        <div class="left-side">
-          <h2>Johnstanley Ajagu</h2>
-          <p>Congratulations! Your app is running. 🎉</p>
-        </div>
-        <div class="right-side">
-          <img class="angular-logo" src="/assets/img/Dp.jpg" alt="displayImage">
-        </div>
-      </div>
+     <h3>About</h3>
     </section>
     <section>
       <div class="right-side">
@@ -57,5 +59,6 @@
       </div>
     </section>
   </div>
+  <div class="gap-bottom"></div> <!--gap after the scrolling background-->
 </main>
 <router-outlet/>
