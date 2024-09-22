@@ -46,11 +46,6 @@
       "Segoe UI Symbol";
   }
 
-  /* p {
-    margin: 0;
-    color: var(--gray-700);
-  } */
-
   main, html {
     margin: 0;
     padding: 0;
@@ -98,15 +93,21 @@
   }
 
   .scrolling-content section:nth-child(1) {
-    margin-bottom: 1px;
-    color: azure;
-    background-color: rgb(40, 38, 72);
+    color: white;
+    background-color: rgb(46, 44, 75);
     
   }
 
   .scrolling-content section:nth-child(2) {
-    margin-top: 1px;
-    background-color: rgb(95, 26, 26);
+    color: white;
+    /* background-color: rgb(95, 26, 26); */
+    background-color: rgb(99, 41, 41);
+  }
+
+  .scrolling-content section:nth-child(3) {
+    color: white;
+    /* background-color: rgb(40, 38, 72); */
+    background-color: rgb(46, 44, 75);
   }
 
   .gap-top {
@@ -131,12 +132,12 @@
 
   .content h2 {
     margin-top: 1.75rem;
-    color: azure;
+    color: white;
   }
 
   .content p {
     margin-top: 1.5rem;
-    color: azure;
+    color: white;
   }
 
   .pill-group {
@@ -206,5 +207,21 @@
     margin-top: 20px;
     height: 50px;
     background-color: rgb(40, 38, 72);
-    color: azure;
+    color: white;
+  }
+
+  .card {
+    background-color: rgb(99, 41, 41);
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .card img {
+   width: 4rem;
+   margin-left: 1rem;
+  }
+
+  .accordion-button:hover {
+    color: black;
   }
