@@ -42,16 +42,12 @@ h2 {
     "Segoe UI Symbol";
 }
 
-main,
-html {
-  height: 100%;
-  overflow-x: hidden;
-}
-
 .static-background {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +61,6 @@ html {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 0;
 }
 
 .scrolling-content {
@@ -73,31 +68,38 @@ html {
   z-index: 1;
 }
 
-.scrolling-content section {
-  min-height: 10vh;
+section {
+  display: flex;
+  justify-content: center;
   padding: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  border-radius: 20px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  margin-bottom: 1px;
 }
 
-.scrolling-content section:nth-child(1) {
+.section1 {
+  width: 50%;
+}
+
+.section2 {
+  width: 50%;
+}
+
+.section3 {
+  width: 50%;
+}
+
+section:nth-child(1) {
   color: white;
-  background-color: rgb(46, 44, 75);
-
+  background-color: rgb(40, 38, 72);
+  /* background-color: rgb(46, 44, 75); */
 }
 
-.scrolling-content section:nth-child(2) {
+section:nth-child(2) {
   color: white;
-  /* background-color: rgb(95, 26, 26); */
-  background-color: rgb(99, 41, 41);
+  background-color: rgb(95, 26, 26);
+  /* background-color: rgb(99, 41, 41); */
 }
 
-.scrolling-content section:nth-child(3) {
+section:nth-child(3) {
   color: white;
   /* background-color: rgb(40, 38, 72); */
   background-color: rgb(46, 44, 75);
@@ -106,6 +108,8 @@ html {
 .gap-top {
   margin: 100px;
   height: 200px;
+  position: relative;
+  z-index: 1;
 }
 
 .gap-bottom {
@@ -203,7 +207,7 @@ html {
   padding: 5px;
   border-radius: 10px;
   height: 50px;
-  background-color: rgb(40, 38, 72);
+  background-color: rgb(32, 30, 56);
   color: white;
 }
 
@@ -213,7 +217,7 @@ html {
 }
 
 .card {
-  background-color: rgb(99, 41, 41);
+  background-color: rgb(95, 26, 26);
   color: white;
   border: none;
   margin-top: 20px;
