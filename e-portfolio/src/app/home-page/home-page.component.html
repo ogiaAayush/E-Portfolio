@@ -15,7 +15,7 @@
   </div>
   <div class="scrolling-content">
     <section>
-      <div class="section1">
+      <div id="section1" [@fadeInOut]="sectionStates['section1']">
         <h4>About</h4>
         <hr style="background-color: white; height: 2px;">
         <p>I am a second-year Computer Programming and Analysis student fueled by a passion for learning and
@@ -113,7 +113,7 @@
       </div>
     </section>
     <section>
-      <div class="section2">
+      <div id="section2" [@fadeInOut]="sectionStates['section2']">
         <h4>Experiences</h4>
         <!--Exp 1-->
         <hr style="background-color: white; height: 2px;">
@@ -144,9 +144,6 @@
                   </div>
                 </div>
               </div>
-              <p class="card-text">
-
-              </p>
             </div><br>
             <!--Exp 2-->
             <img src="\assets\img\CC.png" class="card-img-top" alt="linkedin_logo">
@@ -223,7 +220,7 @@
       </div>
     </section>
     <section>
-      <div class="section3">
+      <div id="section3" [@fadeInOut]="sectionStates['section3']">
         <h4>Licence & certifications</h4>
         <hr style="background-color: white; height: 2px;">
         <div class="card_2">
@@ -243,7 +240,7 @@
       </div>
     </section>
     <section>
-      <div class="section4">
+      <div id="section4" [@fadeInOut]="sectionStates['section4']">
         <h4>Recomendations</h4>
         <hr style="background-color: white; height: 2px;">
         <div class="" id="accordionFlushExample">
@@ -286,5 +283,8 @@
     </section>
   </div>
   <div class="gap-bottom"></div> <!--gap after the scrolling background-->
+
+
+  
 </main>
 <router-outlet />

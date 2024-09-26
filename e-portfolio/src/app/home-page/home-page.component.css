@@ -74,22 +74,21 @@ section {
   display: flex;
   justify-content: center;
   padding: 50px;
-  /*margin-bottom: 1px;*/
 }
 
-.section1 {
+#section1 {
   width: 80%;
 }
 
-.section2 {
+#section2 {
   width: 80%;
 }
 
-.section3 {
+#section3 {
   width: 80%;
 }
 
-.section4 {
+#section4 {
   width: 80%;
 }
 
