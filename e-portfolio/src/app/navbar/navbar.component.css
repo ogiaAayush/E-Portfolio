@@ -1,18 +1,14 @@
-.white-background{
-    background-color:  rgb(40, 38, 72);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 60px;
-    display: flex;
-    align-items: center;
-  }
-
-ul li a {
-  color: white;
+.nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
 
-ul li a img {
+.nav-item {
+  margin-right: 50px;
+}
+
+.navbar-brand img {
   width: 2rem;
   height: 2rem;
-  margin-right: 100px;
 }
-

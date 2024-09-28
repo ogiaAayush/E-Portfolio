@@ -1,21 +1,19 @@
 <main>
   <div class="static-background"></div>
-  <div class="gap-top"><!--gap before the scrolling background-->
-    <div class="content">
-      <div class="left-side">
-        <h2>Hello, I'm Johnstanley Ajagu</h2>
-        <hr style="background-color: white; height: 2px;">
-        <p>Computer Programmer Analyst | Customer Experience Specialist | Student at Conestoga College <br>Waterloo,
-          Ontario, CA</p>
-      </div>
-      <div class="right-side">
-        <img class="dp-logo" src="/assets/img/Dp.jpg" alt="displayImage">
-      </div>
-    </div>
-  </div>
   <div class="scrolling-content">
-    <section>
+    <section class="justify-content-center">
       <div id="section1" [@fadeInOut]="sectionStates['section1']">
+        <div class="content">
+          <div class="left-side">
+            <h2>Hello, I'm Johnstanley Ajagu</h2>
+            <hr style="background-color: white; height: 2px;">
+            <p>Computer Programmer Analyst | Customer Experience Specialist | Student at Conestoga College <br>Waterloo,
+              Ontario, CA</p>
+          </div>
+          <div class="right-side">
+            <img class="dp-logo" src="/assets/img/Dp.jpg" alt="displayImage">
+          </div>
+        </div>
         <h4>About</h4>
         <hr style="background-color: white; height: 2px;">
         <p>I am a second-year Computer Programming and Analysis student fueled by a passion for learning and
@@ -112,7 +110,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="justify-content-center">
       <div id="section2" [@fadeInOut]="sectionStates['section2']">
         <h4>Experiences</h4>
         <!--Exp 1-->
@@ -219,7 +217,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="justify-content-center">
       <div id="section3" [@fadeInOut]="sectionStates['section3']">
         <h4>Licence & certifications</h4>
         <hr style="background-color: white; height: 2px;">
@@ -239,7 +237,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="justify-content-center">
       <div id="section4" [@fadeInOut]="sectionStates['section4']">
         <h4>Recomendations</h4>
         <hr style="background-color: white; height: 2px;">
@@ -282,9 +280,5 @@
       </div>
     </section>
   </div>
-  <div class="gap-bottom"></div> <!--gap after the scrolling background-->
-
-
-  
 </main>
 <router-outlet />
