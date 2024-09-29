@@ -36,9 +36,10 @@
   width: 100%;
   height: 100%;
   background-image: url(/assets/img/5968949.jpg);
+  /* background-image: url(/assets/img/5968949.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   z-index: -1;
 }
 
@@ -67,7 +68,7 @@ main {
   position: relative;
   z-index: 1;
   width: 90%;
-  color: rgb(17, 17, 38);;
+  color: rgb(17, 17, 38);
 }
 
 .container-fluid {
@@ -91,7 +92,7 @@ main {
 
 h2 {
   margin-top: 1.75rem;
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   color: rgb(17, 17, 38);;
   font-weight: 500;
   line-height: 100%;

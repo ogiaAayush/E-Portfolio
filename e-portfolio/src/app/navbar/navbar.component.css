@@ -6,16 +6,13 @@
 .nav {
   width: 90%; 
   margin: 0 auto; 
-  background-image: url(/assets/img/5968949.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 0.5%;
 }
 
-.nav-pills .nav-link.active {
+.nav-link.active {
   /* background-color: #28a745; */
-  background-color: rgb(17, 17, 38);
-  color: white;
+  /* background-color: rgb(17, 17, 38);
+  color: white; */
 }
+
 

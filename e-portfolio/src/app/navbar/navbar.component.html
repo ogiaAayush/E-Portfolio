@@ -1,36 +1,22 @@
 <div class="nav-container">
-  <ul class="nav nav-pills mb-3 d-flex justify-content-center fixed-top" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" routerLink="/home" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-        <img class="icon" src="\assets\icons\home.png" alt="Icon of a home">
-      </button>
+  <ul class="nav mb-3 d-flex justify-content-center fixed-top" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link active" routerLink="/home"><img class="icon" src="\assets\icons\home.png" alt="Icon of a home"></a>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" routerLink="/experience" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">
-        <img class="icon" src="\assets\icons\home.png" alt="Icon of a work">
-      </button>
+      <a class="nav-link" routerLink="/experience"><img class="icon" src="\assets\icons\home.png" alt="Icon of work"></a>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" routerLink="/certificate" id="pills-project-tab" data-bs-toggle="pill" data-bs-target="#pills-project" type="button" role="tab" aria-controls="pills-project" aria-selected="false">
-        <img class="icon" src="\assets\icons\backlog.png" alt="Icon of a Gallery">
-      </button>
+      <a class="nav-link" routerLink="/certificate"><img class="icon" src="\assets\icons\home.png" alt="Icon of work"></a>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" routerLink="/home" id="pills-resume-tab" data-bs-toggle="pill" data-bs-target="#pills-resume" type="button" role="tab" aria-controls="pills-resume" aria-selected="false">
-        <img class="icon" src="\assets\icons\curriculum-vitae.png" alt="Icon of a Photo Gallery">
-      </button>
+      <a class="nav-link" routerLink="/project"><img class="icon" src="\assets\icons\backlog.png" alt="Icon of a Gallery"></a>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" routerLink="/home" id="pills-blog-tab" data-bs-toggle="pill" data-bs-target="#pills-blog" type="button" role="tab" aria-controls="pills-blog" aria-selected="false">
-        <img class="icon" src="\assets\icons\blogger.png" alt="Icon of a eye">
-      </button>
+      <a class="nav-link" routerLink="/resume"><img class="icon" src="\assets\icons\curriculum-vitae.png" alt="Icon of a resume"></a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" routerLink="/blog"><img class="icon" src="\assets\icons\blogger.png" alt="Icon of a blog"></a>
     </li>
   </ul>
-</div>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-project" role="tabpanel" aria-labelledby="pills-project-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-resume" role="tabpanel" aria-labelledby="pills-resume-tab" tabindex="0">...</div>
-  <div class="tab-pane fade" id="pills-blog" role="tabpanel" aria-labelledby="pills-blog-tab" tabindex="0">...</div>
 </div>
