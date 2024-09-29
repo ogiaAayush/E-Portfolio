@@ -30,7 +30,6 @@ export class HomePageComponent {
 
   private isThrottled = false; // Flag to prevent more than 1 scroll at a time before the initial scrolls completes
 
-
   sections = ['section1', 'section2', 'section3', 'section4'];
   sectionStates: { [key: string]: string } = { section1: 'out', section2: 'out', section3: 'out', section4: 'out' }
 
