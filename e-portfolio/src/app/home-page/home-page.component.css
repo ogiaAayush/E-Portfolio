@@ -144,15 +144,6 @@ p {
   color: rgb(17, 17, 38);
 }
 
-.card_2 {
-  border: none;
-  margin-top: 20px;
-}
-
-.card_2 img {
-  width: 3rem;
-}
-
 .accordion-button:hover {
   /* color: red; */
 }
