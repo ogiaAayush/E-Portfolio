@@ -1,22 +1,41 @@
 <div class="nav-container">
-  <ul class="nav mb-3 d-flex justify-content-center fixed-top" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
-      <a class="nav-link active" routerLink="/home"><img class="icon" src="\assets\icons\home.png" alt="Icon of a home"></a>
+  <!-- Header Section -->
+  <div class="header" *ngIf="visibleHeader">
+    <h2>Scroll Down</h2>
+    <p>Scroll down to see the sticky effect.</p>
+  </div>
+
+   <!-- Navbar Section (Sticky) -->
+  <ul class="nav mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+      <a class="nav-link active" routerLink="/home">
+        <img class="icon" src="\assets\icons\home.png" alt="Icon of a home">
+      </a>
     </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" routerLink="/experience"><img class="icon" src="\assets\icons\expie.png" alt="Icon of experience"></a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/experience">
+        <img class="icon" src="\assets\icons\expie.png" alt="Icon of experience">
+      </a>
     </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" routerLink="/certificate"><img class="icon" src="\assets\icons\guarantee.png" alt="Icon of certificate"></a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/certificate">
+        <img class="icon" src="\assets\icons\guarantee.png" alt="Icon of certificate">
+      </a>
     </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" routerLink="/project"><img class="icon" src="\assets\icons\backlog.png" alt="Icon of a Gallery"></a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/project">
+        <img class="icon" src="\assets\icons\backlog.png" alt="Icon of a Gallery">
+      </a>
     </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" routerLink="/resume"><img class="icon" src="\assets\icons\curriculum-vitae.png" alt="Icon of a resume"></a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/resume">
+        <img class="icon" src="\assets\icons\curriculum-vitae.png" alt="Icon of a resume">
+      </a>
     </li>
-    <li class="nav-item" role="presentation">
-      <a class="nav-link" routerLink="/blog"><img class="icon" src="\assets\icons\blogger.png" alt="Icon of a blog"></a>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/blog">
+        <img class="icon" src="\assets\icons\blogger.png" alt="Icon of a blog">
+      </a>
     </li>
   </ul>
 </div>
