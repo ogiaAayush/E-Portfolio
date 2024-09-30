@@ -43,9 +43,18 @@ h2 {
 p {
   margin-top: 1.5rem;
   font-size: 1.05rem;
-  color: rgb(17, 17, 38);;
+  color: rgb(17, 17, 38);
   font-weight: 500;
   margin: 0;
+}
+
+.content, a:hover {
+  color: rgb(17, 17, 38);
+  font-weight: bolder;
+}
+
+a {
+  color: rgb(17, 17, 38);
 }
 
 .social-links {
@@ -86,5 +95,5 @@ p {
 }
 
 .accordion-button:hover {
-  /* color: red; */
+  color: rgb(17, 17, 38);
 }
