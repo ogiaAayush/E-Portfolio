@@ -11,22 +11,5 @@ import { NgIf } from '@angular/common';
 })
 
 export class NavbarComponent {
-  lastScrollTop = 0
-  visibleHeader = true
 
-  @HostListener('window:scroll', [])
-  onScroll() {
-    const currentScroll = window.scrollY || document.documentElement.scrollTop
-    
-    // Show or hide header based on scroll direction
-    if(currentScroll > this.lastScrollTop && currentScroll > 100) {
-      this.visibleHeader = false
-    }else {
-      this.visibleHeader = true
-    }
-
-    this.lastScrollTop = currentScroll <= 0 ? 0 : currentScroll
-
-  }
- 
 }
