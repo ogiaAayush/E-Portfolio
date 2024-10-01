@@ -22,11 +22,14 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 p {
   margin-top: 1.5rem;
   font-size: 1.05rem;
   color: rgb(17, 17, 38);
-  ;
   font-weight: 500;
   margin: 0;
 }

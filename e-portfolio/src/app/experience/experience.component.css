@@ -43,7 +43,12 @@ p {
   display: flex;
 }
 
+h4{
+font-weight: bold;
+}
+
 .btn2 {
+  width: 30rem;
   margin-top: 20px;
   padding: 5px;
   border-radius: 10px;
