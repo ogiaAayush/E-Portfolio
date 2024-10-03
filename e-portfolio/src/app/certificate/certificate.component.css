@@ -42,3 +42,31 @@ p {
 .card_2 img {
   width: 3rem;
 }
+
+.card_3 img {
+  width: 5rem;
+}
+
+.card_3 {
+  top: 0;
+  bottom: 0;
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+  position: absolute;
+}
+
+.position-relative:hover .overlay{
+  opacity: 0.8;
+}

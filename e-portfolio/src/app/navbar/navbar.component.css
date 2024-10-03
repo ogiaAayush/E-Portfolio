@@ -1,12 +1,71 @@
 .icon {
-  width: 3.8vh;
+  width: 30%;
+  height: 30%;
+  padding: 5%;
 }
 
-.nav {
+/* .nav {
   width: 70%; 
   margin: 1% auto; 
   padding: 0.5%;
   top: 0;
   background-color: #333;
   border-radius: 10%;
+} */
+
+#mySidenav {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;
+}
+
+#mySidenav a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: -110px;
+  transition: 0.5s;
+  padding: 0px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#mySidenav a span {
+  margin-left: 5%;
+}
+
+#home {
+  background-color: #333;
+}
+
+#experience {
+  top: 60px;
+  background-color: #333;
+}
+
+#certificate {
+  top: 120px;
+  background-color: #333;
+}
+
+#project {
+  top: 180px;
+  background-color: #333;
+}
+
+#resume {
+  top: 240px;
+  background-color: #333;
+}
+
+#blog {
+  top: 300px;
+  background-color: #333;
 }
