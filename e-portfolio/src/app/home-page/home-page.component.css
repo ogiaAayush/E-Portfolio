@@ -13,15 +13,10 @@
   align-items: center;
 }
 
-.container-fluid:nth-child(1) {
+.container-fluid {
   width: 70%;
   margin-top: 10%;
   margin-bottom: 5%;
-}
-
-.container-fluid:nth-child(2) {
-  width: 70%;
-  margin-bottom: 10%;
 }
 
 .dp-logo {
@@ -90,32 +85,3 @@ p {
   fill: var(--gray-900);
 }
 
-.accordion-button {
-  margin-top: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  height: 50px;
-  color: white;
-  background-color: #333;
-}
-
-.btn3 {
-  margin-top: 20px;
-  padding: 5px;
-  border-radius: 10px;
-  height: 50px;
-}
-
-.accordion-body {
-  max-width: 1000px;
-  word-wrap: break-word;
-  color: rgb(17, 17, 38);
-}
-
-.accordion-button:hover {
-  color: #3498db;
-}
-
-h4 {
-  font-weight: bold;
-}

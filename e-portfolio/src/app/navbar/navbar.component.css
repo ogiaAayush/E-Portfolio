@@ -16,6 +16,10 @@
 #mySidenav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: fixed;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: center;
 }
 
 #mySidenav a {
@@ -42,35 +46,36 @@
 }
 
 #home {
+  top: 30px;
   background-color: #333;
 }
 
 #about {
-  top: 60px;
+  top: 90px;
   background-color: #333;
 }
 
 #experience {
-  top: 120px;
+  top: 150px;
   background-color: #333;
 }
 
 #certificate {
-  top: 180px;
+  top: 210px;
   background-color: #333;
 }
 
 #project {
-  top: 240px;
+  top: 270px;
   background-color: #333;
 }
 
 #resume {
-  top: 300px;
+  top: 330px;
   background-color: #333;
 }
 
 #blog {
-  top: 360px;
+  top: 390px;
   background-color: #333;
 }
