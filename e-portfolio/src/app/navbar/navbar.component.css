@@ -45,27 +45,32 @@
   background-color: #333;
 }
 
-#experience {
+#about {
   top: 60px;
   background-color: #333;
 }
 
-#certificate {
+#experience {
   top: 120px;
   background-color: #333;
 }
 
-#project {
+#certificate {
   top: 180px;
   background-color: #333;
 }
 
-#resume {
+#project {
   top: 240px;
   background-color: #333;
 }
 
-#blog {
+#resume {
   top: 300px;
+  background-color: #333;
+}
+
+#blog {
+  top: 360px;
   background-color: #333;
 }
