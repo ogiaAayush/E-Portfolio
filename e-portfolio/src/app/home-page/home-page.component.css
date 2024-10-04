@@ -45,7 +45,10 @@
   max-width: 13rem;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: var(--pink-100);
+  background: var(--plain-blue);
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  color: transparent;
 }
 
 .content {

@@ -4,37 +4,32 @@
   padding: 5%;
 }
 
-/* .nav {
-  width: 70%; 
-  margin: 1% auto; 
-  padding: 0.5%;
-  top: 0;
-  background-color: #333;
-  border-radius: 10%;
-} */
-
 #mySidenav {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: fixed;
-  height: 100%;
+  height: auto;
   flex-direction: column;
   justify-content: space-around; 
   align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #mySidenav a {
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   left: -110px;
-  transition: 0.5s;
+  transition: left 0.5s ease;
   padding: 0px;
   width: 160px;
   text-decoration: none;
   font-size: 20px;
   color: white;
   border-radius: 0 5px 5px 0;
+  margin-bottom: 10px;
+  background-color: #333;
 }
 
 #mySidenav a:hover {
@@ -42,40 +37,5 @@
 }
 
 #mySidenav a span {
-  margin-left: 5%;
-}
-
-#home {
-  top: 30px;
-  background-color: #333;
-}
-
-#about {
-  top: 90px;
-  background-color: #333;
-}
-
-#experience {
-  top: 150px;
-  background-color: #333;
-}
-
-#certificate {
-  top: 210px;
-  background-color: #333;
-}
-
-#project {
-  top: 270px;
-  background-color: #333;
-}
-
-#resume {
-  top: 330px;
-  background-color: #333;
-}
-
-#blog {
-  top: 390px;
-  background-color: #333;
+  margin-left: 0.8rem;
 }
