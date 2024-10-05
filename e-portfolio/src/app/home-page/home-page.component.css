@@ -38,10 +38,9 @@
 
 .dp-logo {
   border-radius: 100%;
-  max-width: 10rem;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  background: var(--plain-blue);
+  background: var(--electric-violet);
   background-clip: border-box;
   -webkit-background-clip: border-box;
   color: transparent;
