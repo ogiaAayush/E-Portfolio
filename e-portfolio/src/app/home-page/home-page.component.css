@@ -28,10 +28,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/img/black.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -42,7 +38,7 @@
 
 .dp-logo {
   border-radius: 100%;
-  max-width: 13rem;
+  max-width: 10rem;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
   background: var(--plain-blue);
