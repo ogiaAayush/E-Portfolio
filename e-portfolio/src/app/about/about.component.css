@@ -22,7 +22,6 @@
 } */
 
 h4 {
-  color:white;
   font-weight: 500;
 }
 
@@ -45,7 +44,6 @@ h4 {
 .accordion-body {
   max-width: 1000px;
   word-wrap: break-word;
-  color: white;
 }
 
 .accordion-button:hover {
