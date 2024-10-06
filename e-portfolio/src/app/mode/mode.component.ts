@@ -1,10 +1,11 @@
-import { Component} from '@angular/core';
+import { Component, inject} from '@angular/core';
 import { ModeService } from '../../../services/mode-service';
+import { FormBuilder, FormGroup, ReactiveFormsModule} from "@angular/forms"
 
 @Component({
   selector: 'app-mode',
   standalone: true,
-  imports: [],
+  imports: [ReactiveFormsModule],
   templateUrl: './mode.component.html',
   styleUrl: './mode.component.css'
 })

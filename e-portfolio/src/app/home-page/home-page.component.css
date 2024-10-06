@@ -23,6 +23,16 @@
 
 }
 
+:root[data-bs-theme='light'] {
+  --background-colour: #ffffff;
+  --text-colour: #000000;
+}
+
+:root[data-bs-theme='dark'] {
+  --background-colour: #212529;
+  --text-colour: #ffffff;
+}
+
 .background {
   height: 100vh;
   display: flex;
@@ -30,7 +40,6 @@
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 .container-fluid {
   width: 75%;
@@ -66,7 +75,6 @@ h2 {
 
 h3 {
   font-size: 1.75rem;
-  color: white;
   font-weight: 500;
   line-height: 100%;
   max-width: auto;
@@ -84,7 +92,8 @@ hr {
 }
 
 .left-side a {
-  color: white;
+  background-color: var(--background-colour);
+  color: var(--text-colour);
 }
 
 .social-links {
