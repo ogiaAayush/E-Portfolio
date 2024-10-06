@@ -20,11 +20,10 @@ Angular-based portfolio used to showcase personal projects, skills, a mini blog,
 ## Pages
 - Home
     - An introduction, contact information and bio
-    - Testimonial / Recommendations from colleagues, supervisors, or clients 
 - About
     - Education
     - Technical proficiency
-    - Recommendations
+    - Testimonial / Recommendations from colleagues, supervisors, or clients 
 - Experiences
     - Work experiences
 - Certificates
