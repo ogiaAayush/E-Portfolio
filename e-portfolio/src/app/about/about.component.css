@@ -7,11 +7,6 @@
   grid-template-columns: repeat(1, 2fr);
 }
 
-.custom-tooltip img {
-  width: 3rem;
-  height: 3rem;
-}
-
 .container-fluid:nth-child(1) {
   width: 75%;
 }
@@ -53,4 +48,64 @@ h4 {
 
 h4 {
   font-weight: bold;
+}
+
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.custom-tooltip::before {
+  content: attr(data-bs-title);
+  position: absolute;
+  bottom: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333; 
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap; 
+  font-size: 12px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  pointer-events: none; 
+}
+
+.custom-tooltip:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.custom-tooltip img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: solid 2px;
+  background-color: #fff;
+  transition: transform 1ms;
+  border-radius: 5px;
+}
+
+.custom-tooltip img:hover {
+  animation: bounce 1.05s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.lang {
+  margin: 2rem;
 }
