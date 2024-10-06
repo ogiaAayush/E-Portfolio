@@ -13,13 +13,13 @@
 }
 
 .container-fluid:nth-child(2) {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 75%;
 }
 
-.collapse {
+/* .collapse {
   width: 100%;
-}
+} */
 
 h4 {
   color:white;
