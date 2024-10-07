@@ -1,13 +1,15 @@
 .main {
+  height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .container-fluid {
-  width: 70%;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  width: 75%;
+  margin-top: 5rem;
 }
 
 h2 {
@@ -21,17 +23,22 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+li{
+  margin-top: 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin: 0;
+}
+
 p {
   margin-top: 1.5rem;
   font-size: 1.05rem;
-  color: rgb(17, 17, 38);
   font-weight: 500;
   margin: 0;
 }
 
 .card {
   border: none;
-  margin-top: 20px;
 }
 
 .card img {
@@ -43,12 +50,12 @@ p {
   display: flex;
 }
 
-h4{
-font-weight: bold;
+h4 {
+  font-weight: bold;
 }
 
 .btn2 {
-  width: 30rem;
+  width: 100%;
   margin-top: 20px;
   padding: 5px;
   border-radius: 10px;
@@ -57,14 +64,18 @@ font-weight: bold;
   background-color: #333;
 }
 
+.body {
+  margin-bottom: 50px;
+}
+
 .btn2:hover {
   color: #3498db;
 }
 
 .vertical-line {
-  width: 1px;             
-  height: 9rem;           
-  background-color: black; 
-  margin: 0 auto;   
-  margin-left: 10px;    
+  width: 1px;
+  height: 9rem;
+  margin: 0 auto;
+  margin-left: 10px;
+  background-color: #000000;
 }
