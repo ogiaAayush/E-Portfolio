@@ -1,5 +1,9 @@
-<div class="container d-flex justify-content-center align-items-center fixed-top">
-    <button (click)="onToggleTheme()" class="btn mt-3">
-        {{isDarkMode ? '☀️' : '🌙'}}
-    </button>
+<div class="container-fluid">
+    <p class="container d-flex justify-content-center align-items-center fixed-top mt-2">Mode</p>
+    <div class="container d-flex justify-content-center align-items-center fixed-top">
+
+        <button (click)="onToggleTheme()" class="btn btn-outline-dark mt-5">
+            {{isDarkMode ? '☀️' : '🌙'}}
+        </button>
+    </div>
 </div>
