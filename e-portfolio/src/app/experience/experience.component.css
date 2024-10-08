@@ -15,7 +15,6 @@
 h2 {
   margin-top: 1.75rem;
   font-size: 3.125rem;
-  color: rgb(17, 17, 38);
   font-weight: 500;
   line-height: 100%;
   letter-spacing: -0.125rem;
@@ -44,6 +43,9 @@ p {
 .card img {
   width: 3rem;
   height: 3rem;
+  border: solid 2px;
+  transition: transform 1ms;
+  border-radius: 5px;
 }
 
 .exp_1 {
@@ -77,5 +79,6 @@ h4 {
   height: 9rem;
   margin: 0 auto;
   margin-left: 10px;
-  background-color: #000000;
+  background-color: gray;
 }
+
